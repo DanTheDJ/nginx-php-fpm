@@ -1,6 +1,6 @@
-FROM php:7.1.11-fpm-jessie
+FROM php:7.1.11-fpm-alpine
 
-LABEL maintainer="Ric Harvey <ric@ngd.io>"
+LABEL maintainer="Dan Coleman <dan@dancoleman.uk>"
 
 ENV php_conf /usr/local/etc/php-fpm.conf
 ENV fpm_conf /usr/local/etc/php-fpm.d/www.conf
